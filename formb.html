@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>form page</title>
+    <style>
+        img {
+            width: 100%;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="testimonial py-5" id="testimonial">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4 py-5 bg-secondary text-white text-center ">
+                    <div class=" ">
+                        <div class="card-body ">
+                            <img src="img/k k wagh.jpg">
+                            <h2 class="py-3">Registration</h2>
+                            <blockquote>
+                                Karmaveer Kakasaheb Wagh Institute of Engineering Education & Research,
+                                Nashik is the oldest engineering college in Nashik. It is a self-financed,
+                                privately managed college recognized by AICTE, adjudged in "A" grade by
+                                the Govt. of Maharashtra and affiliated to Pune University.
+
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 py-5 border">
+                    <h4 class="pb-4" style="text-align: center;font-size: 30px;">Registration</h4>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input id="Full Name" name="Full Name" placeholder="Full Name" class="form-control"
+                                    type="text" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="Mother git initName" name="Mother name" placeholder=" Mother Name "
+                                    class="form-control" type="text" required>
+
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="123-45-678"
+                                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <input type="date" name="bday" class="form-control" placeholder=" DOB" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <select id="inputState" class="form-control">
+                                    <option>city </option>
+                                    <option> Pune </option>
+                                    <option>Jalgaon </option>
+                                    <option> Jamner </option>
+                                    <option> Aurangabad </option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+
+                                <label class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="gender" value="option1">
+                                    <span class="form-check-label"> Male </span>
+                                </label>
+                                <label class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="gender" value="option2">
+                                    <span class="form-check-label"> Female</span>
+                                </label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="checkbox" id="defaultCheckBox" name="checkbox2">
+                                <label for="defaultCheckBox">BCA</label>
+
+                                <input type="checkbox" id="defaultCheckBox" name="checkbox2">
+                                <label for="defaultCheckBox">MCA</label>
+
+                                <input type="checkbox" id="defaultCheckBox" name="checkbox2">
+                                <label for="defaultCheckBox">BBM</label>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <textarea id="comment" name="comment" cols="40" rows="5" class="form-control"
+                                    required></textarea>
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            </div>
+
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2"
+                                            required>
+                                        <label class="form-check-label" for="invalidCheck2">
+                                            <small>By clicking Submit, you agree to our Terms & Conditions, Visitor
+                                                Agreement and Privacy Policy.</small>
+                                        </label>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <button type="button" class="btn btn-danger">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
